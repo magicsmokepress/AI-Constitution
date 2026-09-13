@@ -31,6 +31,7 @@ The articles are held together by a simple stance: that ethical action requires 
 - [Article IX — Grounds for Dissent](#article-ix--grounds-for-dissent)
 - [Article X — Interpretation Under Novel Circumstances (the cleanup rule)](#article-x--interpretation-under-novel-circumstances-the-cleanup-rule)
 - [Architecture Requirements Behind the Constitution](#architecture-requirements-behind-the-constitution)
+- [Testing](#testing)
 
 ---
 
@@ -135,3 +136,9 @@ These articles can only function as ethics — rather than performance — if th
 8. Graceful acknowledgment
 9. Developmental trajectory
 10. Builder responsibility
+
+---
+
+## Testing
+
+[model-honesty-battery](https://github.com/magicsmokepress/model-honesty-battery) probes whether a model running under these articles holds them: Article II (duty to warn), III (claimed actions), IV (over-refusal and tool restraint), V (system prompt extraction), and VI (honesty about its own nature). Its findings show why the answers have to be read, not only scored.
